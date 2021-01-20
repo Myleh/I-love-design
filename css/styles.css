@@ -1,0 +1,127 @@
+:root {
+	--font: 'Epilogue', sans-serif;
+	--color-white: #ffffff;
+	--color-gray: #464b4f;
+
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+	background-size: cover;
+	font: 30px var(--font);
+}
+
+/* Main Styles */
+header{
+	background: url('../images/bg\ header.jpg') no-repeat top center;
+	height: 100vh;
+	background-size: cover;
+	font: 30px var(--font);
+	color: var(--color-white);
+	
+	
+	}
+.logo {
+	padding-top: 80px;
+	display: flex;
+	justify-content: center;
+	transition: all .3s;
+}
+.logo:hover{
+	transform: scale(1.2);
+
+}
+.slogan {
+	text-align: center;
+	margin-top: 185px;
+}
+.slogan h1 {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 80px;
+}
+.slogan p {
+	width: 430px;
+	font-size: 18px;
+	margin: 60px auto;
+	line-height: 30px;
+	font-weight: 400;
+}
+.slogan a {
+	background: url('../images/arow.png');
+	width: 45px;
+	height: 45px;
+	display: flex;
+	margin: 185px auto 0;
+	transition: all .3s;
+}
+.slogan a:hover {
+	background: url('../images/footer3.png');
+	transform: scale(1.2);
+}
+section {
+	background: url('../images/bg_main.png');
+	color: var(--color-gray);
+	background-size: cover;
+	height: 100vh;
+}
+.descroption h1 {
+	margin: 130px 0 70px;
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+.descroption p {
+	margin: 0 125px 125px;
+	width: 860px;
+	text-align: center;
+	line-height: 42px;
+}
+.descroption h2 {
+	font-size: 60px;
+	color: var(--color-gray);
+	text-align: center;	
+	font-weight: 700;
+	padding-bottom: 115px;
+}
+.skill-flex {
+	display: flex;
+	justify-content: center
+	;
+}
+.skills{
+	width: 30%;
+	
+}
+.skills h3 {
+	margin-bottom: 30px;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.skills p {
+	margin-bottom: 95px;	
+	font-size: 18px;
+	font-weight: 300;
+	color: #a8a9aa;
+	margin-right: 15px;
+	line-height: 30px;
+
+}
+
